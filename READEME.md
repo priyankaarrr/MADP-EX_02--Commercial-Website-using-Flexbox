@@ -1,0 +1,166 @@
+##  Ex02 Commercial Website
+## Date:
+
+## AIM
+To create a commercial website using CSS Flexbox.
+
+## ALGORITHM
+### STEP 1
+Create an HTML file (index.html)
+
+### STEP 2
+Create a CSS file (style.css)
+
+### STEP 3
+Include a navigation bar with links to different sections.
+
+### STEP 4
+Add structured sections for Homepage, Products / Services, About Us, Contact Details and User Account.
+
+### STEP 5
+Include social media links at the footer with copyright information.
+
+### STEP 6
+Define global styles for fonts, colors, and layout.
+
+### STEP 7
+Style the header, navigation bar, and sections.
+
+### STEP 8
+Use Flexbox for layout design.
+
+### STEP 9
+Add hover effects and transitions for interactivity.
+
+### STEP 10
+Add Images and Media.
+
+### STEP 11
+Use optimized images for a professional look.
+
+### STEP 12
+Open the HTML file in a browser to check layout and functionality.
+
+### STEP 13
+Fix styling issues and refine content placement.
+
+### STEP 14
+Deploy the website.
+
+### STEP 15
+Upload to GitHub Pages for free hosting.
+
+## PROGRAM
+index.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wood & Comfort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+    <h1>Wood & Comfort</h1>
+    <p>Your one-stop shop for stylish and durable furniture.</p>
+    </header>
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="item">
+            <img src="sofa.jpg" alt="Sofa">
+            <p>Sofa - ₹18,999</p>
+        </div>
+        <div class="item">
+            <img src="dnt.jpg" alt="Dining Table">
+            <p>Dining Table - ₹25,499</p>
+        </div>
+        <div class="item">
+            <img src="bed.jpg" alt="Bed">
+            <p>Bed - ₹29,999</p>
+        </div>
+    </div>
+
+    <h2>Contact Us</h2>
+    <p>Email: info@woodandcomfort.com</p>
+    <p>Phone: +91 98765 43210</p>
+
+    <footer>
+        <p>&copy; 2025 Wood & Comfort</p>
+    </footer>
+</body>
+</html>
+
+```
+style.css
+```
+body {
+    font-family: Arial, sans-serif;
+    background: #fdf6ec;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(to right, #6a1111, #5d0b0b);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Push content below fixed header */
+main {
+    padding-top: 80px;
+}
+
+/* ===== SECTIONS ===== */
+h2 {
+    color: #8d6e63;
+    margin-top: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 180px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(to right, #5d0b0b, #6a1111);
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+```
+## OUTPUT
+
+
+
+## RESULT
+The program for creating commercial website using CSS Flexbox is executed successfully.
