@@ -160,6 +160,7 @@ footer {
 ```
 ## OUTPUT
 
+<img width="1316" height="885" alt="Screenshot 2025-08-11 181028" src="https://github.com/user-attachments/assets/83c961f0-9966-4b7b-8499-2fab0b307dfe" />
 
 
 ## RESULT
